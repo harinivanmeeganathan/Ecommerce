@@ -1,0 +1,29 @@
+.btn {
+    min-width: 20px;
+    width: auto;
+    height: 30px;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+    padding: 0 35px 0 35px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    &.btn {
+      background-color: #4285f4;
+      color: white;
+  
+      &:hover {
+        background-color: #357ae8;
+        border: none;
+      }
+    }
+  
+    
+  }
+  

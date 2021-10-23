@@ -1,0 +1,21 @@
+.header-container {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-direction: row;
+    .product{
+        .prd{
+            color: #000;
+            font-family: "Gill Sans", sans-serif;
+        }
+    }
+    .addprdbutton{
+      padding: 2%;
+      .addprd{
+          width: auto;
+      }
+    }
+  }
+  
